@@ -14,5 +14,13 @@
     "lat": 44.4580628,
     "lng": 26.0779203,
     "icon": "./vianu.png"
-  }
+  },
+  {
+    "city": "Timisoara",
+    "name": "test school",
+    "description": "this is for testing purposes",
+    "lat": 42.4580628,
+    "lng": 27.0779203,
+    "icon": "./vianu.png"
+  },
 ]
