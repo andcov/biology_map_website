@@ -2,7 +2,7 @@
   {
     "city": "Oradea",
     "name": "Colegiul National Emanuil Gojdu",
-    "description": "<h3>Colegiul National Emanuil Gojdu</h3><img src='https://github.com/andcov/biology_map_website/blob/main/img/cnegojdu.png?raw=true' width='50' height='50'><p>Calitate și performanță prin tradiție.<br>Facilitatea dezvoltării individuale a fiecărui elev, cultivând o gândire logică și creativă, care să provoace un maxim de învățare la câți mai mulți elevi, pregătind astfel tinerii pentru a domina schimbările din propria viață.</p>",
+    "description": "<h3>Colegiul National Emanuil Gojdu <img src='https://github.com/andcov/biology_map_website/blob/main/img/cnegojdu.png?raw=true' width='50' height='50'></h3><p>Calitate și performanță prin tradiție.<br>Facilitatea dezvoltării individuale a fiecărui elev, cultivând o gândire logică și creativă, care să provoace un maxim de învățare la câți mai mulți elevi, pregătind astfel tinerii pentru a domina schimbările din propria viață.</p>",
     "lat": 47.0545768,
     "lng": 21.9355306,
     "icon": "./img/cnegojdu.png"
