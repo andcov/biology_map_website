@@ -2,12 +2,12 @@
   // Initialize and add the map
 function initMap() {
     
-    var xmlhttp = new XMLHttpRequest();
-    var url = "https://raw.githubusercontent.com/andcov/biology_map_website/main/schools.json";
+    const xmlhttp = new XMLHttpRequest();
+    const url = "https://raw.githubusercontent.com/andcov/biology_map_website/main/schools.json";
 
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            var schools_arr = JSON.parse(this.responseText);
+            const schools_arr = JSON.parse(this.responseText);
             create_map(schools_arr);
         }
     };
