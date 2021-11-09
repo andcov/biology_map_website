@@ -16,9 +16,10 @@ function initMap() {
 }
 
 function create_map(schools) {
-  const romania = { lat: 45.854036, lng: 20.5338592 };
+	//45.8617059,24.3776588,6.68z
+  const romania = { lat: 45.8617059, lng: 24.3776588 };
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 6,
+    zoom: 6.68,
     center: romania,
   });
 
