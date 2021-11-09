@@ -1,0 +1,18 @@
+[
+  {
+    "city": "Oradea",
+    "name": "Colegiul National Emanuil Gojdu",
+    "description": "Lorem ipsum",
+    "lat": 47.0545768,
+    "lng": 21.9355306,
+    "icon": "./cnegojdu.png"
+  },
+  {
+    "city": "Bucuresti",
+    "name": "Colegiul National Tudor Vianu",
+    "description": "infooooo",
+    "lat": 44.4580628,
+    "lng": 26.0779203,
+    "icon": "./vianu.png"
+  }
+]
