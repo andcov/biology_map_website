@@ -28,10 +28,17 @@ function create_map(schools) {
       content: school.description,
     });
 
+	const icon = {
+		url: school.icon,
+		scaledSize: new google.maps.Size(50, 50),
+		origin: new google.maps.Point(0, 0),
+		anchor: new google.maps.Point(25, 50)
+	};
+
     const marker = new google.maps.Marker({
       position: {lat: school.lat, lng: school.lng},
       map: map,
-      icon: school.icon,
+      icon: icon,
       title: school.name,
     });
 

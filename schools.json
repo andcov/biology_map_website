@@ -2,25 +2,9 @@
   {
     "city": "Oradea",
     "name": "Colegiul National Emanuil Gojdu",
-    "description": "<h1>Lorem ipsum</h1><img src = 'https://github.com/andcov/biology_map_website/blob/main/vianu.png'>",
+    "description": "<h1>Lorem ipsum</h1><img src='https://github.com/andcov/biology_map_website/blob/main/vianu.png'>",
     "lat": 47.0545768,
     "lng": 21.9355306,
-    "icon": "./cnegojdu.png"
-  },
-  {
-    "city": "Bucuresti",
-    "name": "Colegiul National Tudor Vianu",
-    "description": "infooooo",
-    "lat": 44.4580628,
-    "lng": 26.0779203,
-    "icon": "./vianu.png"
-  },
-  {
-    "city": "Timisoara",
-    "name": "test school",
-    "description": "this is for testing purposes",
-    "lat": 42.4580628,
-    "lng": 27.0779203,
-    "icon": "./vianu.png"
+    "icon": "./img/cnegojdu.png"
   }
 ]
