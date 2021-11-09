@@ -1,53 +1,46 @@
+  
   // Initialize and add the map
-  function initMap() {
-    const schools_text = `[
-      {
-        "city": "Oradea",
-        "name": "Colegiul National Emanuil Gojdu",
-        "description": "Lorem ipsum",
-        "lat": 47.0545768,
-        "lng": 21.9355306,
-        "icon": "./cnegojdu.png"
-      },
-      {
-        "city": "Bucuresti",
-        "name": "Colegiul National Tudor Vianu",
-        "description": "infooooo",
-        "lat": 44.4580628,
-        "lng": 26.0779203,
-        "icon": "./vianu.png"
-      }
-    ]`;
+function initMap() {
+    
+    var xmlhttp = new XMLHttpRequest();
+    var url = "https://raw.githubusercontent.com/andcov/biology_map_website/main/schools.json";
 
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            var schools_arr = JSON.parse(this.responseText);
+            create_map(schools_arr);
+        }
+    };
+    xmlhttp.open("GET", url, true);
+    xmlhttp.send();
+}
 
-    const romania = { lat: 45.854036, lng: 20.5338592 };
-    const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 6,
-      center: romania,
+function create_map(schools) {
+  const romania = { lat: 45.854036, lng: 20.5338592 };
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 6,
+    center: romania,
+  });
+
+  for (school of schools) {
+    const infowindow = new google.maps.InfoWindow({
+      content: school.description,
     });
 
-    const schools = JSON.parse(schools_text);
-    //const schools = require("./schools.json");
+    const marker = new google.maps.Marker({
+      position: {lat: school.lat, lng: school.lng},
+      map: map,
+      icon: school.icon,
+      title: school.name,
+    });
 
-    for (school of schools) {
-      const infowindow = new google.maps.InfoWindow({
-        content: school.description,
+    marker.addListener("click", () => {
+      infowindow.open({
+        anchor: marker,
+        map,
+        shouldFocus: false,
       });
-
-      const marker = new google.maps.Marker({
-        position: {lat: school.lat, lng: school.lng},
-        map: map,
-        icon: school.icon,
-        title: school.name,
-      });
-
-      marker.addListener("click", () => {
-        infowindow.open({
-          anchor: marker,
-          map,
-          shouldFocus: false,
-        });
-      });
-    }
-    
+    });
   }
+}
+
