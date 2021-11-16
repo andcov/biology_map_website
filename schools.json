@@ -1,13 +1,5 @@
 [
     {
-      "city": "Oradea",
-      "name": "'Emanuil Gojdu' College Oradea",
-      "description": "<h3 style='text-align:center'>'Emanuil Gojdu' College Oradea</h3><img style='text-align:center' src='https://www.ebihoreanul.ro/modules/news/files/08_colegiu_arhigimnaziul.jpg' width='200' height='140'><br><img style='text-align:center' src='https://cdn.knd.ro/media/521/2863/1644/20094330/1/21331223123.jpg' width='204' height='153'><br><img style='text-align:center' src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Oradea-Nagyv%C3%A1rad_-_Cri%C5%9Ful_Repede_and_synagogue.jpg/1920px-Oradea-Nagyv%C3%A1rad_-_Cri%C5%9Ful_Repede_and_synagogue.jpg' width='216' height='144'>",
-      "lat": 47.0545768,
-      "lng": 21.9355306,
-      "icon": "./img/cnegojdu.png"
-    },
-    {
       "city": "Targu Jiu",
       "name": "'Tudor Vladimirescu' College Targu Jiu",
       "description": "<h3 style='text-align:center'>'Tudor Vladimirescu' College Targu Jiu</h3>",
@@ -78,6 +70,13 @@
       "lat": 46.9407619,
       "lng": 28.7740681,
       "icon": "./img/petre-stefanuca.jpeg"
+    },
+    {
+      "city": "Oradea",
+      "name": "'Emanuil Gojdu' College Oradea",
+      "description": "<h3 style='text-align:center'>'Emanuil Gojdu' College Oradea</h3><img style='text-align:center' src='https://www.ebihoreanul.ro/modules/news/files/08_colegiu_arhigimnaziul.jpg' width='200' height='140'><br><img style='text-align:center' src='https://cdn.knd.ro/media/521/2863/1644/20094330/1/21331223123.jpg' width='204' height='153'><br><img style='text-align:center' src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Oradea-Nagyv%C3%A1rad_-_Cri%C5%9Ful_Repede_and_synagogue.jpg/1920px-Oradea-Nagyv%C3%A1rad_-_Cri%C5%9Ful_Repede_and_synagogue.jpg' width='216' height='144'>",
+      "lat": 47.0545768,
+      "lng": 21.9355306,
+      "icon": "./img/cnegojdu.png"
     }
-
 ]
