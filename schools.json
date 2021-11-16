@@ -1,10 +1,83 @@
 [
-  {
-    "city": "Oradea",
-    "name": "Colegiul National Emanuil Gojdu",
-    "description": "<h3 style='text-align:center'>Emanuil Gojdu National College</h3><img style='text-align:center' src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Oradea-Nagyv%C3%A1rad_-_Cri%C5%9Ful_Repede_and_synagogue.jpg/1920px-Oradea-Nagyv%C3%A1rad_-_Cri%C5%9Ful_Repede_and_synagogue.jpg' width='216' height='144'><br><img style='text-align:center' src='https://www.ebihoreanul.ro/modules/news/files/08_colegiu_arhigimnaziul.jpg' width='200' height='140'><br><img style='text-align:center' src='https://cdn.knd.ro/media/521/2863/1644/20094330/1/21331223123.jpg' width='204' height='153'>",
-    "lat": 47.0545768,
-    "lng": 21.9355306,
-    "icon": "./img/cnegojdu.png"
-  }
+    {
+      "city": "Oradea",
+      "name": "'Emanuil Gojdu' College Oradea",
+      "description": "<h3 style='text-align:center'>'Emanuil Gojdu' College Oradea</h3><img style='text-align:center' src='https://www.ebihoreanul.ro/modules/news/files/08_colegiu_arhigimnaziul.jpg' width='200' height='140'><br><img style='text-align:center' src='https://cdn.knd.ro/media/521/2863/1644/20094330/1/21331223123.jpg' width='204' height='153'><br><img style='text-align:center' src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Oradea-Nagyv%C3%A1rad_-_Cri%C5%9Ful_Repede_and_synagogue.jpg/1920px-Oradea-Nagyv%C3%A1rad_-_Cri%C5%9Ful_Repede_and_synagogue.jpg' width='216' height='144'>",
+      "lat": 47.0545768,
+      "lng": 21.9355306,
+      "icon": "./img/cnegojdu.png"
+    },
+    {
+      "city": "Targu Jiu",
+      "name": "'Tudor Vladimirescu' College Targu Jiu",
+      "description": "<h3 style='text-align:center'>'Tudor Vladimirescu' College Targu Jiu</h3>",
+      "lat": 45.0372499,
+      "lng": 23.27181,
+      "icon": "./img/tudor_vladimirescu.jpeg"
+    },
+    {
+      "city": "Targu Jiu",
+      "name": "'Ecaterina Teodoroiu' College Targu Jiu",
+      "description": "<h3 style='text-align:center'>'Ecaterina Teodoroiu' College Targu Jiu</h3>",
+      "lat": 45.0281545,
+      "lng": 23.2688944,
+      "icon": "./img/ecaterina_teodoroiu.jpeg"
+    },
+    {
+      "city": "Constanta",
+      "name": "'Mircea cel Batran' College Constanta",
+      "description": "<h3 style='text-align:center'>'Mircea cel Batran' College Constanta</h3>",
+      "lat": 44.1810794,
+      "lng": 28.6489567,
+      "icon": "./img/Colegiul-National-Mircea-Cel-Batran-Constanta-logo.jpeg"
+    },
+    {
+      "city": "Oradea",
+      "name": "'Iuliu Maniu' College Oradea",
+      "description": "<h3 style='text-align:center'>'Iuliu Maniu' College Oradea</h3>",
+      "lat": 47.0541453,
+      "lng": 21.9243337,
+      "icon": "./img/iuliu-maniu.png"
+    },
+    {
+      "city": "Arad",
+      "name": "'Moise Nicoara' College Arad",
+      "description": "<h3 style='text-align:center'>'Moise Nicoara' College Arad</h3>",
+      "lat": 46.1708982,
+      "lng": 21.3174864,
+      "icon": "./img/Moise_Nicoara_National_College_-_facade.jpeg"
+    },
+    {
+      "city": "Arad",
+      "name": "'Preparandia' College Arad",
+      "description": "<h3 style='text-align:center'>'Preparandia' College Arad</h3>",
+      "lat": 46.1689116,
+      "lng": 21.3186167,
+      "icon": "./img/preparandia.png"
+    },
+    {
+      "city": "Bistrita",
+      "name": "'Andrei Muresanu' College Bistrita",
+      "description": "<h3 style='text-align:center'>'Andrei Muresanu' College Bistrita</h3>",
+      "lat": 47.132195,
+      "lng": 24.4886178,
+      "icon": "./img/andrei_muresanu.png"
+    },
+    {
+      "city": "Lechinta",
+      "name": "'Tehnological High School' Lechinta",
+      "description": "<h3 style='text-align:center'>'Tehnological High School' Lechinta</h3>",
+      "lat": 47.0222244,
+      "lng": 24.2587395,
+      "icon": "./img/lechinta.png"
+    },
+    {
+      "city": "Ialoveni",
+      "name": "'Petre Stefanuca' College Ialoveni",
+      "description": "<h3 style='text-align:center'>'Petre Stefanuca' College Ialoveni</h3>",
+      "lat": 46.9407619,
+      "lng": 28.7740681,
+      "icon": "./img/petre-stefanuca.jpeg"
+    }
+
 ]
