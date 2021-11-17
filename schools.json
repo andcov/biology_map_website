@@ -1,4 +1,5 @@
 [
+
     {
       "city": "Targu Jiu",
       "name": "'Tudor Vladimirescu' College Targu Jiu",
@@ -57,8 +58,8 @@
     },
     {
       "city": "Lechinta",
-      "name": "'Tehnological High School' Lechinta",
-      "description": "<h3 style='text-align:center'>'Tehnological High School' Lechinta</h3>",
+      "name": "Tehnological High School Lechinta",
+      "description": "<h3 style='text-align:center'>Tehnological High School Lechinta</h3>",
       "lat": 47.0222244,
       "lng": 24.2587395,
       "icon": "./img/lechinta.png"
