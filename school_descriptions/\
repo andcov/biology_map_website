@@ -99,9 +99,9 @@
     }
     }
     </style>
-<body>
-    <h3 style='text-align:center'><a href='https://andcov.github.io/biology_map_website/school_descriptions/cne_gojdu.html'>'Emanuil Gojdu' College Oradea</a></h3>
-	<img style='width:29%'  id='myImg' class='img-fluid' src='https://cnegojdu.ro/wp-content/uploads/2021/04/Code5-scaled.jpg'><br>
+    <body>
+    
+		<img style='width:29%'  id='myImg' class='img-fluid' src='https://cnegojdu.ro/wp-content/uploads/2021/04/Code5-scaled.jpg'><br>
      <img style='width:29%'  id='myImg' class='img-fluid' src='https://lh3.googleusercontent.com/proxy/4w6GT7pppTNUH3zoHKLYx9Fl_QM5LmR8OlghlPtuXHDypxTbCUlPO9Q_wGvkLC0USgu2ab6wsc_b8gJYvwDn2zTat9kmrKIRZWEntvliUMrrZU5MC6ri'><br>
      <img style='width:29%'  id='myImg' class='img-fluid' src='https://cnegojdu.ro/wp-content/uploads/2021/04/1-scaled.jpg'><br>
      <img style='width:29%'  id='myImg' class='img-fluid' src='https://cnegojdu.ro/wp-content/uploads/2021/03/Emanuil_Gojdu_High_School_-_Oradea-scaled-1.jpg'><br>
